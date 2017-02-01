@@ -88,21 +88,6 @@ header p
     font-size: 1.6rem;
 }
 
-/* Contents
-------------------------------------------------------------*/
-section
-{
-    padding: 60px 0;
-}
-section .container
-{
-    width: 90%;
-}
-section h2
-{
-    font-size: 32px;
-    font-size: 3.2rem;
-}
 
 #shoparea
 {
@@ -143,19 +128,21 @@ section h2
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    width: 32%;
+    width: 100%;
     padding: 20px;
 
-    -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
     background-color: #D2691E;
+    margin:10px;
 }
 #shoparea h3
 {
     font-size: 24px;
     font-size: 2.4rem;
     font-weight: bold;
+
 
     margin-bottom: 10px;
 
@@ -170,7 +157,15 @@ section h2
 {
     margin-bottom: 50px;
 }
-
+#shoparea h1
+{
+    font-size: 30px
+    
+}
+.font h1
+{
+     text-align-last: center;
+}
 .serch
 {
     width: 100%;
@@ -183,6 +178,7 @@ section h2
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     display: inline-block;
+    
 
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -199,18 +195,6 @@ section h2
 }
 
 
-
-/* Footer
-------------------------------------------------------------*/
-footer
-{
-    padding: 10px 0;
-
-    text-align: center;
-
-    color: #000000;
-    background-color: #F0E68C;
-}
 
 
 
